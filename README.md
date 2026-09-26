@@ -128,3 +128,25 @@ The tests compare the conventional coefficient with independently computed
 triangular weighted least squares and check input handling, undefined inference,
 and the article's distribution-test conventions. RBC standard errors are supplied
 by `rdrobust`; the coefficient check does not independently validate them.
+
+## Citation
+
+If you use this software in your research, please cite the accompanying article:
+
+Choe Y, Kwon Y, Kho M, Lee S, Lee S. Event-Time Regression Discontinuity for
+Biomedical Data: LATT Estimation and Covariate Distribution Tests.
+*American Journal of Epidemiology*. [doi:10.1093/aje/kwag243](https://doi.org/10.1093/aje/kwag243).
+
+```bibtex
+@article{choe_event_time_rd,
+  author  = {Choe, Yesong and Kwon, Yeahoon and Kho, Minjung and Lee, Seunggeun and Lee, Sanghack},
+  title   = {Event-Time Regression Discontinuity for Biomedical Data: {LATT} Estimation and Covariate Distribution Tests},
+  journal = {American Journal of Epidemiology},
+  doi     = {10.1093/aje/kwag243}
+}
+```
+
+## License
+
+The source code, documentation, and example notebook are licensed under the
+[MIT License](LICENSE).
