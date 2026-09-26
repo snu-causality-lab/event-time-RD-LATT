@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.DS_Store
+# Examples generate their observations in memory; do not commit input datasets.
+data/
+*.csv
+*.parquet
+*.pkl
+*.rds
+*.RData

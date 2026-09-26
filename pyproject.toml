@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "event-time-rd"
+version = "0.1.0"
+description = "Event-time regression discontinuity with a fully synthetic worked example"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2,<3",
+    "pandas>=2.2,<4",
+    "scipy>=1.13,<2",
+    "rdrobust==2.0.0",
+]
+
+[project.optional-dependencies]
+example = ["matplotlib>=3.9,<4", "notebook>=7,<8", "nbconvert>=7,<8", "ipykernel>=6,<8"]
+
+[project.urls]
+Repository = "https://github.com/snu-causality-lab/event-time-RD-LATT"
+
+[tool.setuptools]
+py-modules = ["event_time_rd"]
